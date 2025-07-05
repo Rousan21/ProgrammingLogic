@@ -1,7 +1,7 @@
 using System;
 
 /*
-Name: [Adam Al-Rousan]
+Name: Adam Al-Rousan
 Title: IT-1050 - Lab 1
 */
 
@@ -17,7 +17,7 @@ class Program
         int favoriteNumber = 21;
         string favoriteLanguage = "Python";
         double programsWritten = 2;
-        bool hasExperience = "No";
+        bool hasExperience = false;
 
         Console.WriteLine("Favorite Number: " + favoriteNumber);
         Console.WriteLine("Favorite Language: " + favoriteLanguage);
@@ -52,14 +52,14 @@ class Program
         int num1 = 8;
         int num2 = 4;
 
-        Console.WriteLine("Addition: " + (num1 + 10));
-        Console.WriteLine("Subtraction: " + (num1 - 2));
-        Console.WriteLine("Multiplication: " + (num1 * 3));
-        Console.WriteLine("Division: " + (num1 / 2));
-        Console.WriteLine("Modulus: " + (num1 % 2));
+        Console.WriteLine("Addition (num1 + 10): " + (num1 + 10));
+        Console.WriteLine("Subtraction (num1 - 2): " + (num1 - 2));
+        Console.WriteLine("Multiplication (num1 * 3): " + (num1 * 3));
+        Console.WriteLine("Division (num1 / 2): " + (num1 / 2));
+        Console.WriteLine("Modulus (num1 % 2): " + (num1 % 2));
 
         // Step 8: Floating Point Precision
-        float floatVal = 1.123456789;
+        float floatVal = 1.123456789f;  // Notice the 'f' here
         double doubleVal = 1.123456789;
 
         Console.WriteLine("Float Value: " + floatVal);
